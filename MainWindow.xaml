@@ -1,0 +1,30 @@
+﻿<Window x:Class="kalkulator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:kalkulator"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <Button Content="9" Uid="9" Click="Add" HorizontalAlignment="Left" Margin="315,118,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="8" Uid="8" Click="Add" HorizontalAlignment="Left" Margin="386,118,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="7" Uid="7" Click="Add" HorizontalAlignment="Left" Margin="457,118,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="6" Uid="6" Click="Add" HorizontalAlignment="Left" Margin="315,157,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="5" Uid="5" Click="Add"  HorizontalAlignment="Left" Margin="386,159,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="4" Uid="4" Click="Add"  HorizontalAlignment="Left" Margin="457,159,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="3" Uid="3" Click="Add"  HorizontalAlignment="Left" Margin="315,200,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="2" Uid="2" Click="Add"  HorizontalAlignment="Left" Margin="386,200,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="1" Uid="1" Click="Add"  HorizontalAlignment="Left" Margin="457,200,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="0" Uid="0" Click="Add" HorizontalAlignment="Left" Margin="315,241,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="." Uid="." Click="Add" HorizontalAlignment="Left" Margin="386,241,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="="  HorizontalAlignment="Left" Margin="457,241,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194" Click="Count"/>
+        <Button Content="-" Uid="-" Click="Add"  HorizontalAlignment="Left" Margin="528,118,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="+" Uid="+" Click="Add"  HorizontalAlignment="Left" Margin="528,159,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="/" Uid="/" Click="Add" HorizontalAlignment="Left" Margin="528,200,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <Button Content="*" Uid="*" Click="Add" HorizontalAlignment="Left" Margin="528,241,0,0" VerticalAlignment="Top" Width="66" Height="36" RenderTransformOrigin="-0.538,-0.194"/>
+        <TextBox Name="input" HorizontalAlignment="Left" Height="33" Margin="315,80,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="279"/>
+
+    </Grid>
+    
+</Window>
